@@ -1,0 +1,2 @@
+{"timestamp": "2026-09-19T06:39:59", "eye": "OS", "ai_grade": 2, "doctor_grade": "ICDR 2", "confirmed_grade": 2, "marked_ungradable": false, "confirmed_referral": true, "final_referral": true, "iqa_score": 73.9}
+{"timestamp": "2026-09-19T06:51:39", "eye": "OS", "ai_grade": 2, "doctor_grade": "ICDR 3", "confirmed_grade": null, "marked_ungradable": false, "confirmed_referral": false, "final_referral": true, "iqa_score": 73.9}

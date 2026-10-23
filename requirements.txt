@@ -1,0 +1,16 @@
+# Core pipeline (hard dependencies)
+numpy>=1.24
+opencv-python-headless>=4.8
+scipy>=1.10
+
+# Optional but recommended -- clinical GUI
+streamlit>=1.30
+
+# Optional -- neural INT8 classifier & explainability (weights required)
+# torch>=2.0
+# torchvision>=0.15
+# timm>=0.9
+# scikit-image>=0.21
+
+# Optional -- pytorch-grad-cam compatible fallback (engine ships built-in hooks)
+# pytorch-grad-cam>=1.5

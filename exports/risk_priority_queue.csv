@@ -1,0 +1,3 @@
+case_id,eye,gradeable,icdr_grade,confidence,priority,priority_class,refer
+2026-09-22T12:32:47,OD,True,4,0.72,0,P0 - immediate specialist,True
+2026-09-22T12:32:47,OS,True,2,0.6,2,P2 - routine referral,True

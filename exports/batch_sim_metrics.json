@@ -1,0 +1,72 @@
+{
+  "schema": "dr-xai-pipeline/v1",
+  "engine_version": "1.0.0",
+  "timestamp": "2026-09-22T12:32:47",
+  "neural_available": false,
+  "quantized_int8": false,
+  "district_scale": {
+    "annual_patients": 100000,
+    "clinic_hours_per_day": 10,
+    "clinic_days_per_week": 6
+  },
+  "operator_latency_ms": {
+    "iqa_ms": 4.2,
+    "preprocessing_ms": 7.8,
+    "segmentation_ms": 96.0,
+    "inference_ms": 58.0,
+    "xai_ms": 31.0,
+    "total_ms": 1560.74
+  },
+  "risk_priority_queue": [
+    {
+      "eye": "OD",
+      "gradeable": true,
+      "icdr_grade": 4,
+      "confidence": 0.72,
+      "uncertainty_flag": false,
+      "priority": 0,
+      "refer": true,
+      "iqa_score": 64.3,
+      "iqa_gradeable": true,
+      "n_microaneurysms": 0,
+      "n_hemorrhages": 0,
+      "n_hard_exudates": 34,
+      "hemorrhage_quadrants": 0,
+      "nv_flag": true,
+      "vitreous_hem": false,
+      "latency_ms": {
+        "iqa_ms": 4.2,
+        "preprocessing_ms": 7.8,
+        "segmentation_ms": 96.0,
+        "inference_ms": 58.0,
+        "xai_ms": 31.0,
+        "total_ms": 1621.17
+      }
+    },
+    {
+      "eye": "OS",
+      "gradeable": true,
+      "icdr_grade": 2,
+      "confidence": 0.6,
+      "uncertainty_flag": false,
+      "priority": 2,
+      "refer": true,
+      "iqa_score": 73.9,
+      "iqa_gradeable": true,
+      "n_microaneurysms": 0,
+      "n_hemorrhages": 0,
+      "n_hard_exudates": 30,
+      "hemorrhage_quadrants": 0,
+      "nv_flag": false,
+      "vitreous_hem": false,
+      "latency_ms": {
+        "iqa_ms": 4.2,
+        "preprocessing_ms": 7.8,
+        "segmentation_ms": 96.0,
+        "inference_ms": 58.0,
+        "xai_ms": 31.0,
+        "total_ms": 1500.32
+      }
+    }
+  ]
+}
